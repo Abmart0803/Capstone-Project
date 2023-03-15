@@ -23,7 +23,7 @@
   - [Install](#install)
     <!-- - [Usage](#usage) -->
     <!-- - [Run tests](#run-tests) -->
-  - [Deployment](cOMING IN FUTURE)
+  - [Deployment](Through github page)
 - [👥 Authors](#authors)
 - [🔭 Future Features](#future-features)
 - [🤝 Contributing](#contributing)
@@ -69,6 +69,8 @@ Live demo of this project can be access with below link.
 ### Project Walkthrough:
 
 The Project walkthrough can be access with below link:
+
+https://www.loom.com/share/6d4ef2c3ee494607ae2085d0679add7e
 
 
 
