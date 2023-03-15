@@ -227,7 +227,6 @@ ul {
   line-height: 0.9em;
   font-weight: 900;
   background-position: left 90%;
-  background-clip: text;
   color: transparent;
   color: #ec5242;
 }
@@ -290,7 +289,6 @@ ul {
 .mainwrapper-list {
   background-color: hsla(220, 3%, 39%, 0.489);
   border: 1px;
-  margin-top: 2% auto;
   width: 90%;
   height: 120px;
   display: flex;
@@ -476,7 +474,7 @@ hr {
 }
 
 .logo-img {
-  width: 110px;
+  width: 45px;
   height: 45px;
   margin-right: 0.5rem;
   margin-top: 2rem;
@@ -487,12 +485,14 @@ hr {
   margin-left: 1rem;
   color: #f0ecec;
   font-weight: 100;
+  text-align: center;
 }
 
 .footer-description {
   font-size: 0.6rem;
   color: #f7f2f2;
   margin-left: 1rem;
+  text-align: center;
 }
 
 /* about page */
@@ -726,7 +726,6 @@ hr {
 
   .header-wraper ul li a {
     font-size: 12px;
-    columns: #fff;
   }
 
   ul {
@@ -739,6 +738,9 @@ hr {
 
   .logo-wrapper img {
     margin-right: 5px;
+    margin-left: 70px;
+    width: 45px;
+    height: 45px;
   }
 
   .list-wrraper {
@@ -817,17 +819,15 @@ hr {
 
   .home-wrapper {
     background-color: #d3d3d3;
-    background-position: cover;
     -webkit-text-size-adjust: 100%;
     -webkit-tap-highlight-color: transparent;
-    transition: 5px;
+    transition: ease-in-out;
     padding-left: 20%;
   }
 
   .bg-wrapper {
     height: 150px;
     background-image: url(./image/new1.jpg);
-    background-position: cover;
     background-repeat: no-repeat;
   }
 
@@ -847,15 +847,13 @@ hr {
 
   .canpion a h2 {
     display: block;
-    border: #ec5242 solid 4px;
+    border: #b3766f solid 6px;
     font-size: 0.8rem;
     text-decoration: none;
-    padding: 3px;
     padding-top: 6px;
-    align-items: center;
     color: #ec5242;
     font-weight: 600;
-    width: 140%;
+    width: 250%;
     height: 40px;
   }
 
@@ -1004,7 +1002,6 @@ hr {
     justify-content: flex-start;
     margin-left: 2rem;
     width: 250px;
-    height: 300;
   }
 
   .speaker-name {
@@ -1102,8 +1099,8 @@ hr {
   }
 
   .logo-img {
-    width: 200px;
-    height: 60px;
+    width: 45px;
+    height: 45px;
     margin-right: 0.5rem;
     margin-left: 8%;
     margin-bottom: 2%;
@@ -1158,8 +1155,8 @@ hr {
   }
 
   .about-logo-img {
-    width: 200px;
-    height: 90px;
+    width: 65px;
+    height: 65px;
   }
 
   .about-description {

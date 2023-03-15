@@ -221,7 +221,6 @@ ul {
   line-height: 0.9em;
   font-weight: 900;
   background-position: left 90%;
-  background-clip: text;
   color: transparent;
   color: #ec5242;
 }
@@ -471,7 +470,7 @@ hr {
 }
 
 .logo-img {
-  width: 110px;
+  width: 45px;
   height: 45px;
   margin-right: 0.5rem;
 }
@@ -710,7 +709,6 @@ hr {
 
   .header-wraper ul li a {
     font-size: 12px;
-    columns: #fff;
   }
 
   ul {
@@ -722,7 +720,10 @@ hr {
   }
 
   .logo-wrapper img {
-    margin-right: 5px;
+    width: 45px;
+    height: 45px;
+    margin-right: 15px;
+    margin-left: 45px;
   }
 
   .list-wrraper {
@@ -794,17 +795,15 @@ hr {
 
   .home-wrapper {
     background-color: #d3d3d3;
-    background-position: cover;
     -webkit-text-size-adjust: 100%;
     -webkit-tap-highlight-color: transparent;
-    transition: 5px;
+    transition: ease-in-out;
     padding-left: 14%;
   }
 
   .bg-wrapper {
     height: 150px;
     background-image: url(./image/new1.jpg);
-    background-position: cover;
     background-repeat: no-repeat;
   }
 
@@ -1088,22 +1087,24 @@ hr {
   }
 
   .logo-img {
-    width: 200px;
-    height: 60px;
+    width: 45px;
+    height: 45px;
     margin-right: 0.5rem;
     margin-left: 8%;
   }
 
-  .footer-heading,
-  .footer-description {
+  .footer-heading {
     color: #262525;
+    text-align: center;
+    font-weight: 400;
   }
 
   .footer-description {
     font-size: 0.8rem;
     color: #262525;
     margin-left: 5%;
-    font-weight: 100;
+    text-align: center;
+    font-weight: 400;
   }
 
   /* about page */
