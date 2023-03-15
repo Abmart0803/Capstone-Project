@@ -477,7 +477,7 @@ hr {
 
 .footer-heading,
 .footer-description {
-  margin-left: 1rem;
+  margin-left: 46px;
 }
 
 .footer-heading {
@@ -1090,12 +1090,13 @@ hr {
     width: 45px;
     height: 45px;
     margin-right: 0.5rem;
-    margin-left: 8%;
+    margin-left: 80px;
+    margin-top: 70px;
   }
 
   .footer-heading {
     color: #262525;
-    text-align: center;
+    text-align: left;
     font-weight: 400;
   }
 
@@ -1103,7 +1104,7 @@ hr {
     font-size: 0.8rem;
     color: #262525;
     margin-left: 5%;
-    text-align: center;
+    text-align: left;
     font-weight: 400;
   }
 

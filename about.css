@@ -474,7 +474,7 @@ hr {
 }
 
 .logo-img {
-  width: 45px;
+  width: 110px;
   height: 45px;
   margin-right: 0.5rem;
   margin-top: 2rem;
@@ -485,14 +485,12 @@ hr {
   margin-left: 1rem;
   color: #f0ecec;
   font-weight: 100;
-  text-align: center;
 }
 
 .footer-description {
   font-size: 0.6rem;
   color: #f7f2f2;
   margin-left: 1rem;
-  text-align: center;
 }
 
 /* about page */
@@ -737,8 +735,9 @@ hr {
   }
 
   .logo-wrapper img {
-    margin-right: 5px;
-    margin-left: 70px;
+    margin-right: 15px;
+    margin-left: 60px;
+    margin-top: 10px;
     width: 45px;
     height: 45px;
   }
@@ -847,10 +846,12 @@ hr {
 
   .canpion a h2 {
     display: block;
-    border: #b3766f solid 6px;
+    border: #ec5242 solid 4px;
     font-size: 0.8rem;
     text-decoration: none;
+    padding: 3px;
     padding-top: 6px;
+    align-items: center;
     color: #ec5242;
     font-weight: 600;
     width: 250%;
@@ -1106,15 +1107,16 @@ hr {
     margin-bottom: 2%;
   }
 
-  .footer-heading,
-  .footer-description {
+  .footer-heading {
     color: #fbf6f6;
+    margin-left: 50px;
   }
 
   .footer-description {
     font-size: 0.8rem;
     margin-left: 5%;
     font-weight: 100;
+    color: #fbf6f6;
   }
 
   /* about page */
