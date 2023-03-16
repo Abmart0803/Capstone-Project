@@ -191,8 +191,8 @@ ul {
 }
 
 .home-wrapper {
-  background-color: #d3d3d3;
-  color: transparent;
+  background-image: url(./images/header-bg.png);
+  background-repeat: repeat;
   padding: 5%;
 }
 
@@ -213,7 +213,7 @@ ul {
 .hello-wrapperh {
   color: #ec5242;
   font-size: 30px;
-  font-weight: 600;
+  font-weight: 100;
 }
 
 .creat-wrapper h1 {
@@ -222,7 +222,7 @@ ul {
   font-weight: 900;
   background-position: left 90%;
   color: transparent;
-  color: #ec5242;
+  color: rgb(255, 0, 0);
 }
 
 .description {
@@ -236,13 +236,17 @@ ul {
 
 .date {
   font-size: 1.5rem;
-  font-weight: 700;
+  font-weight: bold;
+  padding-top: 40px;
+  padding-bottom: 20px;
+  color: rgb(90, 90, 90);
 }
 
 .place {
-  font-size: 0.8rem;
-  font-weight: 200;
+  font-size: 1rem;
+  font-weight: 100;
   margin-bottom: 20%;
+  color: #969595;
 }
 
 /* main */
@@ -847,12 +851,12 @@ hr {
   .hello-wrapperh {
     color: #ec5242;
     font-size: 2rem;
-    font-weight: 600;
+    font-weight: 100;
   }
 
   .creat-wrapper h1 {
     width: 100%;
-    color: #ec5242;
+    color: rgb(255, 0, 0);
     font-size: 3rem;
     line-height: 60px;
     font-weight: 700;
@@ -869,12 +873,14 @@ hr {
 
   .date {
     font-size: 2rem;
-    font-weight: 700;
+    font-weight: bold;
+    color: rgb(90, 90, 90);
   }
 
   .place {
     font-size: 25px;
-    font-weight: 200;
+    font-weight: 100;
+    color: #969595;
   }
 
   .deskop-version {
